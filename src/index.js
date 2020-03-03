@@ -9,8 +9,7 @@ import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3200/api';
 axios.defaults.headers.common['X-User-Email'] = 'daniel@polo.sh';
-// axios.defaults.headers.common['X-User-Token'] = 'RPmixZSk3YbyNX4T2H4Y';
-axios.defaults.headers.common['X-User-Token'] = 'xsLExFXmRVSDnACrrjDf';
+axios.defaults.headers.common['X-User-Token'] = 'RPmixZSk3YbyNX4T2H4Y';
 
 ReactDOM.render((
   <Provider store={store}>
