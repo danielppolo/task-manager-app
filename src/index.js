@@ -9,7 +9,7 @@ import store from './store'
 
 axios.defaults.baseURL = 'https://lewagon-task-manager.herokuapp.com/api'
 axios.defaults.headers.common['X-User-Email'] = 'daniel@polo.sh'
-axios.defaults.headers.common['X-User-Token'] = 'RPmixZSk3YbyNX4T2H4Y'
+axios.defaults.headers.common['X-User-Token'] = 'yHzxrhxYgzDB91anzgR9'
 
 ReactDOM.render((
   <Provider store={store}>
