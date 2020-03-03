@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker'
 import store from './store'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:3200/api';
+axios.defaults.baseURL = 'https://lewagon-task-manager.herokuapp.com/api';
 axios.defaults.headers.common['X-User-Email'] = 'daniel@polo.sh';
 axios.defaults.headers.common['X-User-Token'] = 'RPmixZSk3YbyNX4T2H4Y';
 
