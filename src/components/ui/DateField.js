@@ -37,11 +37,11 @@ function DateField(props) {
           }}
           disablePast
           disableToolbar
-          // views={['date', 'month', 'hours', 'minutes']}
+          ampm={false}
           showTodayButton
-          cancelLabel="Cancel"
-          okLabel="Set time"
+          okLabel="Program task"
           todayLabel="Today"
+          cancelLabel={null}
         />
       </MuiPickersUtilsProvider>
     </ThemeProvider>
