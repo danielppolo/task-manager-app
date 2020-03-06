@@ -12,3 +12,9 @@ export const withEmoji = () => (
     </span>
   </Button>
 )
+
+export const withBlue = () => (
+  <Button background="blue">
+    😀 😎 👍 💯
+  </Button>
+)
