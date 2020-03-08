@@ -23,6 +23,7 @@ function CircleButton(props) {
         width: size,
         borderRadius: size / 2,
         boxShadow: flat && 'none',
+        color: colors.white,
         ...style,
       }}
     >
